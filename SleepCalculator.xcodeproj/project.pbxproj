@@ -61,11 +61,11 @@
 		08BE397E2A4C249500C5EECC /* SleepCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				08D126522A552343003B994C /* Model */,
 				08D126512A55162B003B994C /* Views */,
 				08BE397F2A4C249500C5EECC /* SleepCalculatorApp.swift */,
 				08BE39832A4C249700C5EECC /* Assets.xcassets */,
 				08BE39852A4C249700C5EECC /* Preview Content */,
-				08BE398D2A4C24F100C5EECC /* SleepCycleCalculator.swift */,
 			);
 			path = SleepCalculator;
 			sourceTree = "<group>";
@@ -88,6 +88,14 @@
 				08BE39952A4CAEEE00C5EECC /* VisualEffectView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		08D126522A552343003B994C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				08BE398D2A4C24F100C5EECC /* SleepCycleCalculator.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
